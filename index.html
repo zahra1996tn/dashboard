@@ -1,0 +1,850 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Dashboard | Zicco </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-rtl.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/myscript.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-2 col-12">
+				<div class="card shadow right-side border-0 my-3">
+					<div class="card-header bg-transparent border-0">
+						<h5 class="text-center d-block p-3 text-white" id="parscart"> ParsCart </h5>
+					</div>	
+					<div class="card-body d-flex flex-column border-0 px-0">
+						<ul class="list-group border-0 nav">
+							
+							<li class="list-group-item border-0 bg-transparent"> <a href="#home" data-toggle="tab"><i class="fa fa-home align-middle ml-3"></i>  خانه </a> </li>
+							
+							<li class="list-group-item border-0 my-2 bg-transparent"> <a href="#trakonesh" data-toggle="tab"><i class="fa fa-list align-middle ml-3"></i>  تراکنش </a> </li>
+							
+							<li class="list-group-item border-0 bg-transparent"> <a href="#getter-code" data-toggle="tab"><i class="fa fa-qrcode align-middle ml-3"></i>  کدپذیرنده </a> </li>
+							
+							<li class="list-group-item border-0 my-2 bg-transparent"> <a href="#card-bank" data-toggle="tab"><i class="fa fa-credit-card align-middle ml-3"></i>  کارت بانکی </a> </li>
+							
+							<li class="list-group-item border-0 bg-transparent"> <a href="#karmozd" data-toggle="tab"><i class="fa fa-money align-middle ml-3"></i>  کارمزد </a> </li>
+							
+							<li class="list-group-item border-0 my-2 bg-transparent"> <a href="#vajh" data-toggle="tab"><i class="fa fa-refresh align-middle ml-3"></i>  انتقال وجه </a> </li>
+							
+							<li class="list-group-item border-0 bg-transparent"> <a href="#rahnama" data-toggle="tab"><i class="fa fa-cubes align-middle ml-3"></i>  راهنما </a> </li>
+							
+							<li class="list-group-item border-0 my-2 bg-transparent"> <a href="#plagin" data-toggle="tab"><i class="fa fa-pie-chart align-middle ml-3"></i>  پلاگین </a> </li>
+							
+							<li class="list-group-item border-0 my-2 bg-transparent"> <a href="#hoviat" data-toggle="tab"><i class="fa fa-street-view align-middle ml-3"></i>  احراز هویت </a> </li>
+							
+							<li class="list-group-item border-0 my-2 bg-transparent"> <a href="#poshtibani" data-toggle="tab"><i class="fa fa-life-ring align-middle ml-3"></i>  پشتیبانی </a> </li>
+						</ul>
+						<small class="text-center text-white mt-3"> Copy Right 2020 &copy; </small>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-10">
+				<div class="card shadow my-3 border-0" id="br-rad-header">
+					<div class="card-body justify-content-between d-flex align-items-center">
+						<div class="card border-0 d-inline-block">
+							<div class="card-body bg-light" id="day-month">
+								<a href="#"> <i class="fa fa-angle-left align-middle px-3 text-muted" style="font-size: 22px !important; opacity: .3;"></i> روز جاری : ریال </a>
+								<a href="#" class=" ml-3"> <i class="fa fa-angle-left align-middle px-3 text-muted" style="font-size: 22px !important; opacity: .3;"></i> ماه جاری : ریال </a>
+							</div>
+						</div>
+						<div>
+						<a data-toggle="dropdown">
+						<img src="img/businessman.png" class="img-fluid" style="width: 60px; cursor: pointer">
+						</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item text-right"> <i class="fa fa-pencil align-middle pl-1"></i> ویرایش اطلاعات </a>
+								<a href="#" class="dropdown-item text-right"> <i class="fa fa-lock align-middle pl-1"></i> تغییر رمز عبور </a>
+								<a href="#" class="dropdown-item text-right"> <i class="fa fa-window-close align-middle pl-1"></i> خروج </a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content">
+					<div class="container tab-pane fade show active" id="home">
+				<div class="alert alert-warning my-4 p-2" style="opacity: .7;">
+						<p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. </p>
+				</div>						
+					
+					<div class="card shadow border-0">
+						<div class="card-header bg-white border-0">
+							<h6 class="text-center text-muted mb-5"> فروش ماه های اخیر </h6>
+						</div>
+						<div class="card-body" id="month">
+							<ul class="nav nav-pills justify-content-between flex-wrap">
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#far"> فروردین </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> اردیبهشت </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> خرداد </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> تیر </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> مرداد </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> شهریور </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> مهر </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> ابان </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> اذر </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> دی </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> بهمن </a>
+								</li>	
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#"> اسفند </a>
+								</li>
+							</ul>
+							<div class="card border-0 my-4">
+								<div class="card-body">
+								<div class="tab-content">
+								<div class="container tab-pane fade show active" id="far">
+									<table class="table table-responsive-md text-center justify-content-center table-borderless table-hover">
+									<thead class="bg-light">
+										<tr>
+											<th> ردیف : </th>
+											<th> مبلغ (تومان) : </th>
+											<th> نمره : </th>
+											<th> وضعیت تسویه : </th>
+											<th> بهترین این ماه : </th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td> 1 </td>
+											<td> 200.000 </td>
+											<td> 6.8 از 10 </td>
+											<td class="text-success"> <i class="fa fa-check align-middle"></i> تسویه شده </td>
+											<td> <img src="img/medal (1).png" class="img-fluid"> </td>
+										</tr>
+										<tr>
+											<td> 2 </td>
+											<td> 350.000 </td>
+											<td> 6.8 از 10 </td>
+											<td class="text-danger"> <i class="fa fa-times align-middle"></i> تسویه نشده </td>
+											<td> <img src="img/medal (2).png" class="img-fluid"> </td>
+										</tr>
+										<tr>
+											<td> 3 </td>
+											<td> 200.000 </td>
+											<td> 6.8 از 10 </td>
+											<td class="text-success"> <i class="fa fa-check align-middle"></i> تسویه شده </td>
+											<td> <img src="img/third.png" class="img-fluid"> </td>
+										</tr>	
+									</tbody>
+									 </table>
+								</div>
+									
+								</div>
+								</div>
+							</div>
+
+							
+
+						</div>
+					</div>
+				</div>
+					<div class="container tab-pane fade show" id="trakonesh">
+						<div class="card shadow my-5 border-0">
+							<div class="card-header bg-transparent border-0">
+								<h6 class="text-center text-muted"> جستجو </h6>
+							</div>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12 col-lg-6">
+										<div class="input-group my-4">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> کارت مبدا </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<div class="input-group">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> فاکتور </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<a class="btn btn-light btn-block my-4"> 
+											<span class="text-center d-block w-100"><i class="fa fa-times align-middle text-danger"></i> تراکنش ناموفق </span>
+										</a>
+									</div>
+									<div class="col-12 col-lg-6">
+										<div class="input-group my-4">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> کارت مقصد </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<div class="input-group">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> شناسه بانکی </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<a class="btn btn-light btn-block my-4"> 
+											<span class="text-center d-block w-100"><i class="fa fa-check align-middle text-success"></i> تراکنش موفق </span>
+										</a>
+									</div>
+								</div>
+								
+								<div class="row mx-auto justify-content-center mb-0" id="s-btn">
+									<div class="col-7 col-lg-4 search-btn align-items-center justify-content-center d-flex">
+										<button class="btn  mb-0 d-flex"> جستجو </button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card shadow mb-5">
+							<div class="card-header">
+								<h5 class="text-center text-muted"> تراکنش های یافت شده : </h5>
+							</div>
+							<div class="card-body">
+								<table class="table table-borderless table-responsive-sm">
+									<thead>
+										<tr>
+											<th> مبلغ (تومان) </th>
+											<th> فاکتور </th>
+											<th> کارت مبدا </th>
+											<th> شناسه بانکی </th>
+											<th> کارت مقصد </th>
+											<th> زمان تراکنش </th>
+											<th> وضعیت تراکنش </th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td> 200.000 </td>
+											<td> 223010224 </td>
+											<td> 585983105168824 </td>
+											<td> 20316658 </td>
+											<td> 564875320124568 </td>
+											<td> 01:15 98/5/7 </td>
+											<td class="text-success"> <i class="fa fa-check align-middle"></i> موفق </td>
+										</tr>
+										<tr>
+											<td> 200.000 </td>
+											<td> 223010224 </td>
+											<td> 585983105168824 </td>
+											<td> 20316658 </td>
+											<td> 564875320124568 </td>
+											<td> 01:15 98/5/7 </td>
+											<td class="text-danger"> <i class="fa fa-times align-middle"></i> ناموفق </td>
+										</tr>
+										<tr>
+											<td> 200.000 </td>
+											<td> 223010224 </td>
+											<td> 585983105168824 </td>
+											<td> 20316658 </td>
+											<td> 564875320124568 </td>
+											<td> 01:15 98/5/7 </td>
+											<td class="text-success"> <i class="fa fa-check align-middle"></i> موفق </td>
+										</tr>
+										<tr>
+											<td> 200.000 </td>
+											<td> 223010224 </td>
+											<td> 585983105168824 </td>
+											<td> 20316658 </td>
+											<td> 564875320124568 </td>
+											<td> 01:15 98/5/7 </td>
+											<td class="text-danger"> <i class="fa fa-times align-middle"></i> ناموفق </td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="container tab-pane fade show" id="plagin">
+						<div class="card shadow my-5 border-0 plagin-cart">
+							<div class="card-header border-0 bg-transparent">
+								<h6 class="text-center text-muted"> پلاگین </h6>
+							</div>
+							<div class="card-body">
+								<p class="mb-3"> راهنمای استفاده از اسکریپت : </p>
+								<p> برای اتصال به سایت ، شما باید از اسکریپت آسان پرداخت بر پایه ی php یا asp یا node.js استفاده کنید . این پلاگین ها طراحی شده و شما میتوانید بر حسب نیاز خود هرکدام را از باکس ها زیر دانلود کنید !! لازم به ذکر است که شما باید در قسمت کد پذیرنده ، کد پذیرنده ی خود را که از بخش سمت راست منو قابل دسترس هست تهیه کنید . </p>
+								<div>
+									<p> <i class="fa fa-bell-o align-middle"></i> کد پذیرنده شما :   api-1234  است و  کارت ایدی شما   :card-id124568  است </p>
+								</div>
+								
+								<div class="bg-light plagin-box p-3">
+									<div class="card bg-white border-0 my-3 plagin-to" id="">
+										<div class="card-body bg-white border-0 justify-content-center align-items-center d-flex">
+											<p class="text-center text-muted mb-0"> اسکریپت اسان پرداخت </p>
+										</div>
+									</div>
+									<div class="justify-content-around d-flex">
+										
+									<div class="card bg-white border-0 d-flex flex-grow-1 mx-3 justify-content-center align-items-center plag-flex-grow">
+										<div class="card-body bg-white border-0">
+											<span class="text-center"> Php </span>
+											<img src="img/zip.png" class="img-fluid">
+										</div>
+									</div>	
+									<div class="card bg-white border-0 d-flex  flex-grow-1 mx-3 justify-content-center align-items-center plag-flex-grow">
+										<div class="card-body bg-white border-0">
+											<span class="text-center"> Asp.Net </span>
+											<img src="img/zip.png" class="img-fluid">
+										</div>
+									</div>
+									<div class="card bg-white border-0 d-flex flex-grow-1 mx-3 justify-content-center align-items-center plag-flex-grow">
+										<div class="card-body bg-white border-0">
+											<span class="text-center"> Node.Js </span>
+											<img src="img/zip.png" class="img-fluid">
+										</div>
+									</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="container tab-pane fade show" id="card-bank">
+						<div class="card shadow my-5 border-0">
+							<div class="card-header bg-transparent border-0">
+								<h6 class="text-center text-muted"> ثبت کارت </h6>
+							</div>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-12 col-lg-6">
+										<div class="input-group">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> نام بانک </span>
+											</div>
+											<select name="bank" class="custom-select">
+											<option> تجارت </option>
+											<option> رفاه </option>
+											<option> کشاورزی </option>
+											<option> ملی </option>
+											<option> سپه </option>
+											<option> پارسیان </option>
+											<option> کشاورزی </option>
+											<option> مهر </option>
+											<option> ملت </option>
+											</select>						
+										</div>
+
+										<div class="input-group my-4">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> شماره کارت </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<div class="input-group">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> شماره شبا </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<div class="input-group my-4">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> کد دسترسی خصوصی </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+
+									</div>
+									<div class="col-12 col-lg-6">
+										<div class="input-group">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> نام کامل صاحب حساب </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<div class="input-group my-4">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> شماره حساب </span>
+											</div>
+											<input type="text" value="" class="form-control">
+										</div>
+										<div class="input-group">
+											<div class="input-group-append">
+												<span class="input-group-text bg-transparent"> سرور درگاه شما</span>
+											</div>
+											<select class="custom-select" name="dargah">
+												<option> اپ </option>
+												<option> زرین پال </option>
+												<option> پارس کارت </option>
+											</select>
+											</div>
+
+									</div>
+								</div>
+								
+								<div class="row mx-auto justify-content-center mb-0 mt-3">
+									<div class="col-lg-4 col-7 search-btn align-items-center justify-content-center d-flex">
+										<button class="btn  mb-0 d-flex"> ثبت </button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card shadow border-0">
+							<div class="card-header bg-transparent border-0">
+								<h6 class="text-muted text-center"> کارت های ثبت شده </h6>
+							</div>
+							<div class="card-body">
+								<div class="row justify-content-center">
+									<div class="col-12 col-lg-3">
+										<div class="input-group sabt-cart mb-3">
+											<div class="input-group-append">
+												<div class="input-group-text rounded-pill border-0 px-4" style="font-size: 13px !important;">
+													<span> نمایش  </span>
+												</div>
+											</div>
+											<select class="custom-select bg-light border-0" name="namaesh" style="font-size: 13px !important;">
+												<option> کارت های فعال </option>
+												<option> کارت های غیر فعال </option>
+												<option> سایر </option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="card border-0 bg-light">
+									<div class="card-body border-0">
+										<div class="row">
+											<div class="col-12 col-lg-8">
+												<div class="d-lg-flex justify-content-between mb-3">
+													<div class="card border-0 flex-grow-1 rounded-pill mb-2 mb-lg-0">
+														<div class="card-body border-0 py-4 text-center">
+															<p class="mb-0"> نام : <strong> امیر دینی </strong> </p>
+														</div>
+													</div>
+
+													<div class="card border-0 flex-grow-1 rounded-pill">
+														<div class="card-body border-0 py-4 text-center">
+															<p class="mb-0"> شماره کارت : <strong>  5859654125369874</strong> </p>
+														</div>
+													</div>
+												</div>
+												<div class="d-lg-flex justify-content-between mb-3">
+													<div class="card border-0 flex-grow-1 rounded-pill mb-2 mb-lg-0">
+														<div class="card-body border-0 text-center py-4">
+															<p class="mb-0">   نام بانک: <strong> تجارت </strong> </p>
+														</div>
+													</div>
+
+													<div class="card border-0 flex-grow-1 rounded-pill">
+														<div class="card-body border-0 text-center py-4">
+															<p class="mb-0"> Api_Card_Id : <strong> 1336_tej </strong> </p>
+														</div>
+													</div>
+												</div>
+												
+													<div class="card border-0 flex-grow-1 rounded-pill">
+														<div class="card-body border-0 py-4">
+															<p class="mb-0 text-center"> دکمه پرداخت : <strong class="text-danger"> cvw]pcqhqueblnvrucqyhzqazuvjvrwbu  </strong> </p>
+														</div>
+													</div>
+											</div>
+											<div class="col-12 col-lg-4">
+												<div class="d-flex justify-content-between align-items-center">
+												<p> فعال </p>
+												<div class="custom-control custom-switch">
+													<input id="check" type="checkbox" class="custom-control-input">
+													<label class="custom-control-label" for="check"></label>
+												</div>
+												</div>
+												<div class="d-flex justify-content-between align-items-center">
+												<p> وضعیت کارت </p>
+												<small class="text-danger"> مسدود </small>
+												</div>
+												
+												<div class="d-flex justify-content-between align-items-center">
+												<p> حذف کارت </p>
+												<a data-toggle="modal" href="#modal1">
+													<i class="fa fa-angle-left align-middle"></i>
+												</a>
+													<div class="modal fade" id="modal1">
+														<div class="modal-dialog">
+															<div class="modal-content">
+																<div class="modal-header">
+																	<h5 class="modal-title"> پیام سیستم ! </h5>
+																</div>
+																<div class="modal-body">
+																	<p> ایا از حذف کارت خود اطمینان دارید ؟! </p>
+																</div>
+																<div class="modal-footer">
+																	<button type="button" class="btn btn-outline-primary rounded-pill px-4 ml-1" data-dismiss="modal"> 
+																	خیر
+																	</button>
+																	<button type="button" class="btn btn-primary rounded-pill px-4">بله</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+												
+												<div class="d-flex justify-content-between align-items-center">
+												<p> نمایش موجودی کارت </p>
+												<a data-toggle="modal" href="#modal2">
+													<i class="fa fa-angle-left align-middle"></i>
+												</a>
+													<div class="modal fade" id="modal2">
+														<div class="modal-dialog">
+															<div class="modal-content">
+																<div class="modal-header">
+																	<h5 class="modal-title"> پیام سیستم ! </h5>
+																</div>
+																<div class="modal-body">
+																	<p> موجودی حساب شما برابر است با 46.235.015 </p>
+																</div>
+																<div class="modal-footer">
+																	<button type="button" class="btn btn-outline-primary rounded-pill px-4 ml-1" data-dismiss="modal"> 
+																	بستن
+																	</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="d-flex justify-content-between align-items-center">
+												<p> نمایش واریزی های کارت </p>
+												<a data-toggle="modal" href="#modal3">
+													<i class="fa fa-angle-left align-middle"></i>
+												</a>
+													<div class="modal fade" id="modal3">
+														<div class="modal-dialog modal-lg">
+															<div class="modal-content" style="border-radius: 22px !important">
+																<div class="modal-header">
+																	<h6 class="modal-title"> پیام سیستم ! </h6>
+																</div>
+																<div class="modal-body">
+																	<p style="font-size: 13px !important"> 5 تراکنش اخیر شما : </p>
+																	<table class="table table-responsive-md table-striped table-hover text-center">
+																		<thead>
+																			<tr> 
+																				<th> ردیف </th>
+																				<th> مبلغ (تومان) </th>
+																				<th> نمره </th>
+																				<th> وضعیت تسویه </th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td> 1 </td>
+																				<td> 200.000 </td>
+																				<td> 6.8 از 10 </td>
+																				<td class="text-success"> تسویه <i class="fa fa-check align-middle"></i> </td>
+																			</tr>																			<tr>
+																				<td> 2 </td>
+																				<td> 267.000 </td>
+																				<td> 7.8 از 10 </td>
+																				<td class="text-danger"> تسویه شده <i class="fa fa-times align-middle"></i> </td>
+																			</tr>																			<tr>
+																				<td> 3 </td>
+																				<td> 300.000 </td>
+																				<td> 6.8 از 10 </td>
+																				<td class="text-success"> تسویه <i class="fa fa-check align-middle"></i> </td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+																
+																<div class="modal-footer">
+																	<button type="button" class="btn btn-outline-primary rounded-pill px-4 ml-1" data-dismiss="modal"> 
+																	بستن
+																	</button>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="container tab-pane fade show" id="rahnama">
+						<div class="card shadow border-0" style="border-radius: 35px 0 0 35px !important;">
+							<div class="card-header border-0 bg-transparent">
+								<h5 class="card-title text-center text-muted" style="opacity: .4"> راهنما </h5>
+							</div>
+							<div class="card-body" style="line-height: 4; font-weight: 500">
+								<p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. </p>
+								<img src="img/Layer 2.png" class="img-fluid">
+								<h5 class="card-title text-center text-muted my-5" style="opacity: .4"> استفاده از سیستم </h5>
+								<img src="img/Layer 3.png" class="img-fluid">
+								<p class="text-muted my-4" style="font-size: 13px; "> برای حمایت مالی از ما لطفا مبلغ را وارد کرده و دکمه "پرداخت" را بزنید ! </p>
+								<div class="row">
+									<div class="col-12 col-lg-6 mx-auto">
+								<div class="input-group">
+									<input type="text" class="form-control">
+									<div class="input-group-append">
+										<button type="button" class="btn rounded-pill text-white" style="background-color: #6f42c1 !important;"> پرداخت </button>
+									</div>
+								</div>	
+									</div>
+								</div>
+								<p class="text-muted my-4" style="font-size: 13px; "> بانک های تحت پوشش سامانه درگاه پرداخت پارس کارت در لیست زیر موجود است : </p>
+								<img src="img/Layer 4.png" class="img-fluid">
+								<p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. </p>
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="container tab-pane fade show" id="karmozd">
+						<div class="card border-0 shadow" style="border-radius: 35px 0 0 35px;">
+							<div class="card-header bg-transparent border-0">
+								<h5 class="text-center text-muted" style="opacity: .4;"> کارمزد </h5>
+							</div>
+							<div class="card-body border-0">
+								<div class="card border-0 bg-light" style="border-radius: 25px;">
+									<div class="card-body border-0">
+										<div class="row">
+											<div class="col-12 col-lg-9 justify-content-between align-items-center">
+												
+												<div class="d-lg-flex" style="font-size: 14px">
+													<div class="card border-0 bg-white  mb-2 mb-lg-0 mx-lg-2 flex-grow-1" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> توکن :24 </p>
+														</div>
+													</div>	
+													<div class="card border-0 bg-white flex-grow-1 mb-2  mb-lg-0 mx-lg-2" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> شناسه کاربر : 77</p>
+														</div>
+													</div>
+													<div class="card border-0 bg-white flex-grow-1 mb-2 mb-lg-0 mx-lg-2" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> نام کاربر: امیر دینی</p>
+														</div>
+													</div>
+												</div>
+												
+												<div class="d-flex my-3" style="font-size: 14px">
+												 <div class="card border-0 bg-white  mb-2 mb-lg-0 mx-lg-2 flex-grow-1" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0">صورتحساب در تاریخ 98/05/12 به مبلغ : 113.639 تومان ایجاد شد </p>
+														</div>
+												 </div>
+												</div>
+												
+												<div class="d-lg-flex" style="font-size: 14px">
+													<div class="card border-0 bg-white  mb-2 mb-lg-0 mx-lg-2 flex-grow-1" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> توکن :24 </p>
+														</div>
+													</div>	
+													<div class="card border-0 bg-white flex-grow-1 ml-lg-1 mb-1 mb-lg-0 px-4" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> شناسه کاربر : 77</p>
+														</div>
+													</div>
+													<div class="card border-0 bg-white flex-grow-1 ml-lg-1 mb-1 mb-lg-0 px-4" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> نام کاربر: امیر دینی</p>
+														</div>
+													</div>
+												</div>
+												
+											
+										</div>
+											<div class="col-12 col-lg-3 d-flex">
+												<div class="card border-0 bg-white btn-karmozd flex-grow-1" style="border-radius: 20px;">
+													<div class="card-body border-0 align-items-center d-flex py-3 flex-column justify-content-between">
+														<p class="text-danger text-center mt-lg-5 mb-lg-0" style="font-weight: 500; font-size: 14px"> پرداخت نشده </p>
+													
+													<div class="d-block w-100">
+														<button href="#" type="button" class="btn btn-block w-100 border-0"> پرداخت کنید </button>
+													</div>
+													</div>
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+								<div class="card border-0 bg-light mt-3" style="border-radius: 25px;">
+									<div class="card-body border-0">
+										<div class="row">
+											<div class="col-12 col-lg-9 justify-content-between align-items-center">
+												
+												<div class="d-lg-flex" style="font-size: 14px">
+													<div class="card border-0 bg-white  mb-2 mb-lg-0 mx-lg-2 flex-grow-1" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> توکن :24 </p>
+														</div>
+													</div>	
+													<div class="card border-0 bg-white flex-grow-1 mb-2  mb-lg-0 mx-lg-2" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> شناسه کاربر : 77</p>
+														</div>
+													</div>
+													<div class="card border-0 bg-white flex-grow-1 mb-2 mb-lg-0 mx-lg-2" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> نام کاربر: امیر دینی</p>
+														</div>
+													</div>
+												</div>
+												
+												<div class="d-flex my-3" style="font-size: 14px">
+												 <div class="card border-0 bg-white  mb-2 mb-lg-0 mx-lg-2 flex-grow-1" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0">صورتحساب در تاریخ 98/05/12 به مبلغ : 113.639 تومان ایجاد شد </p>
+														</div>
+												 </div>
+												</div>
+												
+												<div class="d-lg-flex" style="font-size: 14px">
+													<div class="card border-0 bg-white  mb-2 mb-lg-0 mx-lg-2 flex-grow-1" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> توکن :24 </p>
+														</div>
+													</div>	
+													<div class="card border-0 bg-white flex-grow-1 ml-lg-1 mb-1 mb-lg-0 px-4" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> شناسه کاربر : 77</p>
+														</div>
+													</div>
+													<div class="card border-0 bg-white flex-grow-1 ml-lg-1 mb-1 mb-lg-0 px-4" style="border-radius: 20px">
+														<div class="card-body border-0 py-3">
+															<p class="text-center mb-0"> نام کاربر: امیر دینی</p>
+														</div>
+													</div>
+												</div>
+												
+											
+										</div>
+											<div class="col-12 col-lg-3 d-flex">
+												<div class="card border-0 bg-white btn-karmozd flex-grow-1" style="border-radius: 20px;">
+													<div class="card-body border-0 align-items-center d-flex py-3 flex-column justify-content-between">
+														<p class="text-success text-center mt-lg-5 mb-lg-0" style="font-weight: 500; font-size: 14px"> پرداخت شده </p>
+													
+													</div>
+												</div>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+					
+					<div class="container tab-pane fade show" id="getter-code">
+						<div class="card shadow border-0 bg-white" style="border-radius: 25px 0 0 25px;">
+							<div class="card-header border-0 bg-white">
+								<h5 class="text-muted text-center" style="opacity: .5"> کد پذیرنده </h5>
+							</div>
+							<div class="card-body border-0">
+								<div class="d-lg-flex justify-content-between align-items-center" >
+									<div class="input-group ml-0 ml-lg-4 mb-3">
+										<div class="input-group-append">
+											<span class="input-group-text bg-white" style="font-size: 13px !important;"> ادرس سایت </span>
+										</div>
+										<input type="text" class="form-control">
+									</div>	
+									<div class="input-group mb-3">
+										<div class="input-group-append">
+											<span class="input-group-text bg-white" style="font-size: 13px !important;"> آی پی سایت </span>
+										</div>
+										<input type="text" class="form-control">
+									</div>
+								</div>	
+								<div class="d-lg-flex justify-content-between align-items-center">
+									<div class="input-group ml-0 ml-lg-4 mb-3">
+										<div class="input-group-append">
+											<span class="input-group-text bg-white" style="font-size: 13px !important;"> عنوان سایت </span>
+										</div>
+										<input type="text" class="form-control">
+									</div>	
+									<div class="input-group mb-3">
+										<div class="input-group-append">
+											<span class="input-group-text bg-white" style="font-size: 13px !important;"> موضوع فعالیت سایت </span>
+										</div>
+										<select class="custom-select" style="font-size: 13px !important;">
+											<option> خدماتی </option>
+											<option> فروشگاهی </option>
+											<option> نرم افزار و بازی </option>
+											<option> صنایع دستی </option>
+											<option> اموزش انلاین </option>
+											<option selected> سایر </option>
+										</select>
+									</div>
+								</div>
+								<div class="row mx-auto justify-content-center mb-0 mt-3">
+									<div class="col-lg-4 col-7 search-btn align-items-center justify-content-center d-flex">
+										<button class="btn  mb-0 d-flex"> ثبت </button>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="card shadow bg-white border-0 mt-2" style="border-radius: 25px 0 0 25px;">
+							<div class="card-body border-0">
+								<div class="card border-0">
+									<div class="card-body border-0 bg-light" style="border-radius: 20px 20px 0 0;">
+										<div class="d-lg-flex justify-content-between align-items-center">
+											<div class="flex-grow-1 bg-white mb-3 ml-lg-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;"> ادرس سایت : <strong> AmirDini.com </strong> </p>
+											</div>
+											<div class="flex-grow-1 bg-white mb-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;"> آی پی سایت : <strong> 192.168.1.7 </strong> </p>
+											</div>
+										</div>
+										<div class="d-lg-flex justify-content-between align-items-center">
+											<div class="flex-grow-1 bg-white mb-3 ml-lg-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;">  API_Token : <strong> pjrwninviwrhdipowqvbmnbmvbklbnnq </strong> </p>
+											</div>
+											<div class="flex-grow-1 bg-white mb-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;">وضعیت : <span class="text-success"> <i class="fa fa-check align-middle"></i> فعال </span> </p>
+											</div>
+										</div>
+									</div>	
+									<div class="card-body border-0 bg-light mt-2" style="border-radius: 0px 0px 20px 20px;">
+										<div class="d-lg-flex justify-content-between align-items-center">
+											<div class="flex-grow-1 bg-white mb-3 ml-lg-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;"> ادرس سایت : <strong> AmirDini.com </strong> </p>
+											</div>
+											<div class="flex-grow-1 bg-white mb-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;"> آی پی سایت : <strong> 192.168.1.7 </strong> </p>
+											</div>
+										</div>
+										<div class="d-lg-flex justify-content-between align-items-center">
+											<div class="flex-grow-1 bg-white mb-3 ml-lg-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;">  API_Token : <strong> pjrwninviwrhdipowqvbmnbmvbklbnnq </strong> </p>
+											</div>
+											<div class="flex-grow-1 bg-white mb-3" style="border-radius: 20px;">
+												<p class="text-center mb-0 py-3" style="font-size: 13px !important;">وضعیت : <span class="text-danger"> <i class="fa fa-times align-middle"></i> غیرفعال </span> </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

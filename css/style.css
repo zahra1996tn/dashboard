@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.right-side{
+	border: none !important;
+	border-radius: 0 35px 35px 0 !important;
+	background-image: linear-gradient(315deg , #6959d1 , #7564e0);
+}
+#parscart {
+	font-family: iran yekan;
+	font-size: 29px !important;
+}
+.right-side ul li a{
+	font-size: 18px !important;
+	text-decoration: none !important;
+	color: #fff !important;
+	font-weight: 400;
+}
+.right-side li:hover{
+	color: #6959d1 !important;
+	background-color: white !important;
+}
+.right-side li:hover a{
+	color: #6959d1 !important;
+}
+.right-side ul li{
+	transition: all .3s ease;
+	border-radius: 0 !important;
+}
+
+
+#day-month{
+	border-radius: 35px 0 0 35px !important;
+}
+#day-month a{
+	text-decoration: none !important;
+	font-size: 16px !important;
+	color: #000 !important;
+}
+.dropdown-menu a{
+	font-size: 12px !important;
+}
+#br-rad-header {
+	border-radius: 35px 0 0 35px !important;
+
+}
+
+/* start home */
+#home{
+	line-height: 39px !important;
+}
+#month a{
+	text-decoration: none !important;
+	font-size: 14px !important;
+	color: #000 !important;
+	transition: all .3s ease;
+	border-radius: 13px !important;
+}
+#month a:hover {
+	background-color: #7564e0;
+	color: #fff !important;
+}
+#month a:visited {
+	background-color: #7564e0 !important;
+}
+
+/* End home */
+
+/* Start tarakonesh */
+
+.search-btn {
+	background-color: yellow !important;
+	border-radius: 18px 18px 0 0;
+	height: 60px !important;
+	transition: all 1s ease;
+	margin-bottom: -20px !important;
+}
+.search-btn:hover{
+	box-shadow: 0px -2px 22px -1px #ccc;
+}
+#s-btn:hover{
+	cursor: pointer;
+}
+
+/* End tarakonesh */
+
+/* Start plagin */
+.plagin-cart {
+	border-radius: 35px 0 0 35px !important;
+}
+.plagin-cart h6{
+	font-size: 21px !important;
+	font-weight: 400;
+}
+.plagin-cart p{
+	font-size: 14px !important;
+}
+.plagin-cart div {
+	border-radius: 20px !important;
+	
+}
+
+/* End plagin */
+
+
+/* Start cart-bank */
+
+.custom-switch {
+	direction: ltr !important;
+	padding: 2.2rem !important;
+}
+.custom-switch .custom-control-label::after{
+	width: 16px !important;
+	height: 16px !important;
+}
+.custom-switch .custom-control-label::before{
+	width: 2.75rem !important;
+	height: 1.25rem !important;
+
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+	background-color: #20c997 !important;
+	border: 1px solid #20c997 !important;
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+	transform: translateX(1.5rem) !important;
+}
+
+a:visited{
+	color: #000 !important;
+}
+/* End cart-bank */
+
+/* Start karmozd */
+
+.btn-karmozd button{
+	background: #fbb034 !important;
+	background-image: linear-gradient(315deg ,#ffdd00, #fbb034) !important;
+	border-radius: 15px !important;
+	font-size: 13px !important;
+	font-size: 14px !important;
+	width: 100% !important;
+	border: none !important;
+}
+
+/* End karmozd */
+
+/* start move money */
+
+.move-money h6{
+	border-bottom: 1px dashed #eee !important;
+		
+}
+.move-money {
+	font-size: 14px !important;
+	z-index: 20!important;
+	margin-top: -113px !important;
+	border-radius: 20px !important;
+}
+.move-money input a{
+	font-size: 14px !important;
+}
+.move-money button{
+	background-color: #ffee00 !important;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: all .5s ease;
+	font-weight: 600;
+}
+.move-money button:hover{
+	box-shadow: 0px 0px 14px #ccc;
+	
+}
+
+.box-move-money{
+	z-index: 0;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+/* End move money */
